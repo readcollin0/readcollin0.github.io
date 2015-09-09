@@ -3,3 +3,14 @@ body {
   background-repeat: repeat-x;
   overflow: hidden;
 }
+
+#centertext-container {
+  overflow-y: scroll;
+  overflow-x: auto;
+  height: 500px;
+}
+
+#centertext {
+  width: 600px;
+  height: inherit;
+}
