@@ -6,18 +6,25 @@
     <script type="text/javascript">
       function setheight() {
         var window_height = window.innerHeight
-        document.getElementById("centertext-container").style.height = window_height-100+"px";
+        var window_width = window.innerWidth
+        document.getElementById("centertext-container").style.height = window_height-180+"px";
+        document.getElementById("centertext-container").style.width = window_width-180+"px";
+        document.getElementById("left-panel").style.height = window_height-175+"px";
       }
     </script>
   </head>
   <body onload="setheight()">
-    <div style="height:70px">
-      <h1 align="center">Mr. Jaffe's Work</h1>
+    <div id="top-panel" style="height:150px">
+      <img id="title" src="logo.png" align="center" />
     </div>
-    <div id="centertext-container">
+    <div id="left-panel">
+      <h3 class="small-header">Project List</h3>
+      <hr />
+    </div>
+    <div id="centertext-container" align="center">
       <div id="centertext" align="center">
         <p>
-          Test 1<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          Test 1vcgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           <br /><br /><br /><br />
           Test 2<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           <br /><br /><br /><br />
@@ -29,16 +36,7 @@
           <br /><br /><br /><br />
           Test 6<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           <br /><br /><br /><br />
-          Test 7<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br />
-          Test 8<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br />
-          Test 9<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br />
-          Test 10<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br />
-          Test 11<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br />
+          Test 7
         </p>
       </div>
     </div>

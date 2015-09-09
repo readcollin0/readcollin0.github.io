@@ -1,16 +1,43 @@
 body {
-  background-image: url("https://readcollin0.github.io/mrjaffe/top_gradient.jpg");
-  background-repeat: repeat-x;
   overflow: hidden;
+  background-color: #99CCFF;
 }
 
 #centertext-container {
   overflow-y: scroll;
   overflow-x: auto;
   height: 500px;
+  width: 500px;
+}
+
+#top-panel {
+  background-color: #000099;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000066
+}
+
+#left-panel {
+  background-color: #3333FF;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0000FF;
+  float: left;
+  width: 150px;
 }
 
 #centertext {
   width: 600px;
   height: inherit;
+}
+
+.small-header {
+  color: #FF0000;
+  text-align: center;
+}
+
+#title {
+  width: 800px;
+  height: 130px;
+  padding: 10px;
 }
