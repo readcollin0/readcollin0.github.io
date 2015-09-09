@@ -1,3 +1,5 @@
-#top {
-  background-image: url(top_gradient.jpg);
+body {
+  background-image: url("http://readcollin0.github.io/mrjaffe/top_gradient.jpg");
+  background-repeat: repeat-x;
+  overflow: hidden;
 }
